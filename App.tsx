@@ -30,7 +30,7 @@ const SUPABASE_KEY =  import.meta.env.VITE_SUPABASE_KEY;
 const supabase = SUPABASE_URL !== "https://qlzqhbxynfardhfdpscj.supabase.co" 
   ? createClient(SUPABASE_URL, SUPABASE_KEY) 
   : null;
-
+// --test--
 // --- TYPES ---
 type Tab = 'notes' | 'budget' | 'payment';
 
