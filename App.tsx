@@ -66,7 +66,7 @@ const AuthScreen = ({ onLogin }: { onLogin: (user: any) => void }) => {
      // return;
    // }
   //  await supabase.auth.signInWithOAuth({ provider: 'google' });
-  };
+ //};
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
